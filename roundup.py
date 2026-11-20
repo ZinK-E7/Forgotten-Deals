@@ -1,6 +1,8 @@
 
 import os
 import json
+import time
+import urllib.parse
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -9,6 +11,14 @@ WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 
 PENDING_FILE = "pending_deals.json"
 STATE_FILE = "posted_deals.json"
+
+MAX_DEALS = 20
+MIN_DISCOUNT = 35
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 ForgottenDeals/1.0",
+    "Accept": "application/json"
+}
 
 
 def load_json(filename, default):
@@ -24,6 +34,49 @@ def save_json(filename, data):
         json.dump(data, file, indent=2)
 
 
+def get_current_game(app_id):
+    url = (
+        "https://store.steampowered.com/api/appdetails?"
+        + urllib.parse.urlencode({
+            "appids": app_id,
+            "cc": "gb",
+            "l": "english",
+            "filters": "basic,price_overview"
+        })
+    )
+
+    request = urllib.request.Request(url, headers=HEADERS)
+
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.loads(response.read().decode("utf-8"))
+
+    result = data.get(app_id, {})
+
+    if not result.get("success"):
+        return None
+
+    game = result.get("data", {})
+    price = game.get("price_overview")
+
+    if not price:
+        return None
+
+    discount = int(price.get("discount_percent", 0))
+
+    if discount < MIN_DISCOUNT:
+        return None
+
+    return {
+        "id": app_id,
+        "name": game.get("name", "Unknown game"),
+        "discount": discount,
+        "original": price.get("initial_formatted", ""),
+        "final": price.get("final_formatted", ""),
+        "image": game.get("header_image", ""),
+        "url": f"https://store.steampowered.com/app/{app_id}/",
+    }
+
+
 def post_roundup(games, first_batch):
     embeds = []
 
@@ -37,8 +90,8 @@ def post_roundup(games, first_batch):
             "url": game["url"],
             "description": (
                 f"🔥 **{game['discount']}% OFF**\n"
-                f"~~{game.get('original', '')}~~ "
-                f"**{game.get('final', '')}**\n\n"
+                f"~~{game['original']}~~ "
+                f"**{game['final']}**\n\n"
                 f"**Genres:** {categories}"
             ),
             "color": 0x39A852,
@@ -57,7 +110,7 @@ def post_roundup(games, first_batch):
     payload = {
         "content": (
             "🔥 **FORGOTTEN DEALS — FRIDAY ROUNDUP**\n"
-            "This week's Steam bargains are here!"
+            "This week's top 20 Steam bargains are here!"
             if first_batch else
             "🔥 **FORGOTTEN DEALS — MORE BARGAINS**"
         ),
@@ -78,7 +131,6 @@ def post_roundup(games, first_batch):
 
 def main():
     event = os.environ.get("GITHUB_EVENT_NAME", "")
-
     now = datetime.now(ZoneInfo("Europe/London"))
 
     if event != "workflow_dispatch":
@@ -90,26 +142,58 @@ def main():
     posted = set(load_json(STATE_FILE, []))
 
     if not pending:
-        print("No waiting deals for this Friday.")
+        print("No waiting deals.")
         return
 
-    games = [
-        game for app_id, game in pending.items()
-        if app_id not in posted
-    ]
+    print("Checking current Steam prices...")
 
-    games.sort(
+    valid_games = []
+    stale_ids = []
+
+    for app_id, old_game in pending.items():
+        if app_id in posted:
+            stale_ids.append(app_id)
+            continue
+
+        try:
+            game = get_current_game(app_id)
+
+            if not game:
+                print(f"Expired or no longer discounted: {old_game.get('name')}")
+                stale_ids.append(app_id)
+                continue
+
+            game["categories"] = old_game.get("categories", [])
+            valid_games.append(game)
+
+            print(
+                f"Verified: {game['name']} - "
+                f"{game['discount']}% OFF"
+            )
+
+        except Exception as error:
+            print(f"Could not check {old_game.get('name')}: {error}")
+
+        time.sleep(0.3)
+
+    for app_id in stale_ids:
+        pending.pop(app_id, None)
+
+    save_json(PENDING_FILE, pending)
+
+    valid_games.sort(
         key=lambda game: game.get("discount", 0),
         reverse=True
     )
 
+    games = valid_games[:MAX_DEALS]
+
     if not games:
-        print("No new deals to publish.")
+        print("No verified deals ready to publish.")
         return
 
-    print(f"Preparing Friday roundup: {len(games)} games")
+    print(f"Preparing top {len(games)} deals.")
 
-    # Discord supports a maximum of 10 embeds per message.
     for start in range(0, len(games), 10):
         batch = games[start:start + 10]
 
@@ -123,13 +207,12 @@ def main():
             posted.add(app_id)
             pending.pop(app_id, None)
 
-        # Save after each successful Discord message.
         save_json(STATE_FILE, sorted(posted))
         save_json(PENDING_FILE, pending)
 
-        print(f"Published {len(batch)} deals")
+        print(f"Published {len(batch)} deals.")
 
-    print("Friday roundup completed successfully!")
+    print("Forgotten Deals roundup completed!")
 
 
 if __name__ == "__main__":
