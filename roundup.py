@@ -4,6 +4,7 @@ import json
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -125,8 +126,14 @@ def post_roundup(games, first_batch):
         method="POST"
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
-        response.read()
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            response.read()
+
+    except urllib.error.HTTPError as error:
+        print("DISCORD ERROR:", error.code)
+        print("DISCORD MESSAGE:", error.read().decode("utf-8"))
+        raise
 
 
 def main():
