@@ -1,4 +1,4 @@
-import os
+
 import re
 import json
 import time
@@ -6,10 +6,9 @@ import html
 import urllib.parse
 import urllib.request
 
-WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 STATE_FILE = "posted_deals.json"
+PENDING_FILE = "pending_deals.json"
 
-# Steam community tag IDs
 TAGS = {
     "Horror": 1667,
     "Survival": 1662,
@@ -21,6 +20,19 @@ MIN_DISCOUNT = 35
 MAX_PAGES = 3
 
 
+def load_json(filename, default):
+    try:
+        with open(filename, "r") as file:
+            return json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default
+
+
+def save_json(filename, data):
+    with open(filename, "w") as file:
+        json.dump(data, file, indent=2)
+
+
 def get_html(element, class_name):
     match = re.search(
         r'<[^>]*class="[^"]*' + class_name +
@@ -30,7 +42,10 @@ def get_html(element, class_name):
     )
     if not match:
         return ""
-    return html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+
+    return html.unescape(
+        re.sub(r"<[^>]+>", "", match.group(1))
+    ).strip()
 
 
 def get_attribute(element, attribute):
@@ -69,12 +84,15 @@ def steam_search(tag_id):
 
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
-                data = json.loads(response.read().decode("utf-8"))
+                data = json.loads(
+                    response.read().decode("utf-8")
+                )
         except Exception as error:
             print("Steam search error:", error)
             break
 
         results = data.get("results_html", "")
+
         if not results:
             break
 
@@ -90,6 +108,7 @@ def steam_search(tag_id):
             discount_text = get_html(card, "search_discount")
 
             discount_match = re.search(r"(\d+)", discount_text)
+
             if not app_id or not name or not discount_match:
                 continue
 
@@ -98,24 +117,29 @@ def steam_search(tag_id):
             if discount < MIN_DISCOUNT:
                 continue
 
-            original = get_html(card, "discount_original_price")
-            final = get_html(card, "discount_final_price")
+            app_id = app_id.split(",")[0]
 
             image_match = re.search(
                 r'<img[^>]+(?:src|data-src)="([^"]+)"',
                 card
             )
-            image = html.unescape(image_match.group(1)) if image_match else ""
+
+            image = (
+                html.unescape(image_match.group(1))
+                if image_match else ""
+            )
 
             games.append({
-                "id": app_id.split(",")[0],
+                "id": app_id,
                 "name": name,
                 "discount": discount,
-                "original": original,
-                "final": final,
+                "original": get_html(card, "discount_original_price"),
+                "final": get_html(card, "discount_final_price"),
                 "image": image,
-                "url": f"https://store.steampowered.com/app/{app_id.split(',')[0]}/",
+                "url": f"https://store.steampowered.com/app/{app_id}/",
             })
+
+        print(f"Steam page {page + 1}: {len(cards)} listings")
 
         if len(cards) < 100:
             break
@@ -123,78 +147,54 @@ def steam_search(tag_id):
     return games
 
 
-def post_to_discord(game, categories):
-    category_text = " • ".join(sorted(categories))
-
-    embed = {
-        "title": game["name"],
-        "url": game["url"],
-        "description": (
-            f"🔥 **{game['discount']}% OFF**\n"
-            f"~~{game['original']}~~  **{game['final']}**\n\n"
-            f"**Genres:** {category_text}"
-        ),
-        "color": 0x39A852,
-        "footer": {"text": "Forgotten Few | Forgotten Deals"},
-    }
-
-    if game["image"]:
-        embed["thumbnail"] = {"url": game["image"]}
-
-    payload = {"embeds": [embed]}
-
-    request = urllib.request.Request(
-        WEBHOOK,
-        data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
-        method="POST"
-    )
-
-    with urllib.request.urlopen(request, timeout=30) as response:
-        response.read()
-
-
 def main():
-    try:
-        with open(STATE_FILE, "r") as file:
-            posted = set(json.load(file))
-    except (FileNotFoundError, json.JSONDecodeError):
-        posted = set()
+    posted = set(load_json(STATE_FILE, []))
+    pending = load_json(PENDING_FILE, {})
 
-    found = {}
+    if not isinstance(pending, dict):
+        pending = {}
+
+    total_found = 0
 
     for category, tag_id in TAGS.items():
-        print(f"Searching {category} deals...")
-        for game in steam_search(tag_id):
+        print(f"\nSearching {category} deals...")
+
+        games = steam_search(tag_id)
+
+        print(
+            f"{category}: {len(games)} qualifying games found"
+        )
+
+        for game in games:
             app_id = game["id"]
 
-            if app_id not in found:
-                found[app_id] = {"game": game, "categories": set()}
+            if app_id in posted:
+                continue
 
-            found[app_id]["categories"].add(category)
+            total_found += 1
+
+            if app_id not in pending:
+                pending[app_id] = game
+                pending[app_id]["categories"] = []
+
+            if category not in pending[app_id]["categories"]:
+                pending[app_id]["categories"].append(category)
+
+            if game["discount"] > pending[app_id]["discount"]:
+                pending[app_id].update({
+                    "discount": game["discount"],
+                    "original": game["original"],
+                    "final": game["final"],
+                })
 
         time.sleep(2)
 
-    new_deals = 0
+    save_json(PENDING_FILE, pending)
 
-    for app_id, item in found.items():
-        if app_id in posted:
-            continue
-
-        try:
-            post_to_discord(item["game"], item["categories"])
-            posted.add(app_id)
-            new_deals += 1
-            print("Posted:", item["game"]["name"])
-            time.sleep(1.5)
-
-        except Exception as error:
-            print("Discord posting error:", error)
-
-    with open(STATE_FILE, "w") as file:
-        json.dump(sorted(posted), file, indent=2)
-
-    print(f"Finished! Posted {new_deals} new deals.")
+    print("\n----------------------------")
+    print(f"New qualifying results: {total_found}")
+    print(f"Deals waiting for Friday: {len(pending)}")
+    print("----------------------------")
 
 
 if __name__ == "__main__":
