@@ -70,7 +70,6 @@ jobs:
 
             git reset --hard origin/main
             cp /tmp/posted_deals.json posted_deals.json
-
             git add posted_deals.json
 
             if git diff --cached --quiet; then
