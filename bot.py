@@ -18,6 +18,12 @@ TAGS = {
 
 MIN_DISCOUNT = 35
 MAX_PAGES = 3
+MAX_ITEMS_PER_CATEGORY = 30
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 ForgottenDeals/1.0",
+    "Accept": "application/json"
+}
 
 
 def load_json(filename, default):
@@ -33,31 +39,18 @@ def save_json(filename, data):
         json.dump(data, file, indent=2)
 
 
-def get_html(element, class_name):
-    match = re.search(
-        r'<[^>]*class="[^"]*' + class_name +
-        r'[^"]*"[^>]*>(.*?)</[^>]+>',
-        element,
-        re.S
+def get_json(url):
+    request = urllib.request.Request(
+        url,
+        headers=HEADERS
     )
-    if not match:
-        return ""
 
-    return html.unescape(
-        re.sub(r"<[^>]+>", "", match.group(1))
-    ).strip()
-
-
-def get_attribute(element, attribute):
-    match = re.search(
-        r'\b' + attribute + r'="([^"]*)"',
-        element
-    )
-    return html.unescape(match.group(1)) if match else ""
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 
 def steam_search(tag_id):
-    games = []
+    items = []
 
     for page in range(MAX_PAGES):
         params = {
@@ -77,95 +70,87 @@ def steam_search(tag_id):
             + urllib.parse.urlencode(params)
         )
 
-        request = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "Mozilla/5.0 ForgottenDeals/1.0",
-                "Accept": "application/json"
-            }
-        )
-
         try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                print("Steam URL:", response.geturl())
-
-                data = json.loads(
-                    response.read().decode("utf-8")
-                )
+            data = get_json(url)
 
         except Exception as error:
             print("Steam search error:", error)
             break
 
-        results = data.get("results_html", "")
+        page_items = data.get("items", [])
 
         print(
-            "Steam response:",
-            "success =", data.get("success"),
-            "| total_count =", data.get("total_count"),
-            "| keys =", list(data.keys())
+            f"Steam page {page + 1}: "
+            f"{len(page_items)} items returned"
         )
 
-        if not results:
-            print("WARNING: Steam returned no results_html!")
-            print("First two Steam items:")
-            print(
-                json.dumps(
-                    data.get("items", [])[:2],
-                    indent=2
-                )
-            )
+        if not page_items:
+            print("No more Steam items.")
             break
 
-        cards = re.findall(
-            r'<a\b(?=[^>]*class="[^"]*search_result_row)[^>]*>.*?</a>',
-            results,
-            re.S
-        )
+        items.extend(page_items)
 
-        print(f"Steam page {page + 1}: {len(cards)} listings")
-
-        for card in cards:
-            app_id = get_attribute(card, "data-ds-appid")
-            name = get_html(card, "title")
-            discount_text = get_html(card, "search_discount")
-
-            discount_match = re.search(r"(\d+)", discount_text)
-
-            if not app_id or not name or not discount_match:
-                continue
-
-            discount = int(discount_match.group(1))
-
-            if discount < MIN_DISCOUNT:
-                continue
-
-            app_id = app_id.split(",")[0]
-
-            image_match = re.search(
-                r'<img[^>]+(?:src|data-src)="([^"]+)"',
-                card
-            )
-
-            image = (
-                html.unescape(image_match.group(1))
-                if image_match else ""
-            )
-
-            games.append({
-                "id": app_id,
-                "name": name,
-                "discount": discount,
-                "original": get_html(card, "discount_original_price"),
-                "final": get_html(card, "discount_final_price"),
-                "image": image,
-                "url": f"https://store.steampowered.com/app/{app_id}/",
-            })
-
-        if len(cards) < 100:
+        if len(page_items) < 100:
             break
 
-    return games
+    return items[:MAX_ITEMS_PER_CATEGORY]
+
+
+def get_app_id(item):
+    logo = item.get("logo", "")
+
+    match = re.search(
+        r"/apps/(\d+)/",
+        logo
+    )
+
+    return match.group(1) if match else ""
+
+
+def get_game_details(app_id):
+    url = (
+        "https://store.steampowered.com/api/appdetails?"
+        + urllib.parse.urlencode({
+            "appids": app_id,
+            "cc": "gb",
+            "l": "english",
+            "filters": "basic,price_overview"
+        })
+    )
+
+    try:
+        data = get_json(url)
+
+        result = data.get(app_id, {})
+
+        if not result.get("success"):
+            print(f"No Steam details for app {app_id}")
+            return None
+
+        game = result.get("data", {})
+        price = game.get("price_overview")
+
+        if not price:
+            return None
+
+        discount = int(price.get("discount_percent", 0))
+
+        if discount < MIN_DISCOUNT:
+            return None
+
+        return {
+            "id": app_id,
+            "name": game.get("name", "Unknown game"),
+            "discount": discount,
+            "original": price.get("initial_formatted", ""),
+            "final": price.get("final_formatted", ""),
+            "image": game.get("header_image", ""),
+            "url": f"https://store.steampowered.com/app/{app_id}/",
+        }
+
+    except Exception as error:
+        print(f"App details error for {app_id}: {error}")
+        return None
 
 
 def main():
@@ -175,26 +160,44 @@ def main():
     if not isinstance(pending, dict):
         pending = {}
 
+    cache = {}
     total_found = 0
 
     for category, tag_id in TAGS.items():
         print(f"\nSearching {category} deals...")
 
-        games = steam_search(tag_id)
+        items = steam_search(tag_id)
 
-        print(f"{category}: {len(games)} qualifying games found")
+        print(f"{category}: checking {len(items)} games")
 
-        for game in games:
-            app_id = game["id"]
+        category_found = 0
+
+        for item in items:
+            app_id = get_app_id(item)
+
+            if not app_id:
+                print("Skipping item without an app ID:", item.get("name"))
+                continue
 
             if app_id in posted:
                 continue
 
-            total_found += 1
+            if app_id not in cache:
+                cache[app_id] = get_game_details(app_id)
+                time.sleep(0.3)
+
+            game = cache[app_id]
+
+            if not game:
+                continue
+
+            category_found += 1
 
             if app_id not in pending:
-                pending[app_id] = game
+                pending[app_id] = game.copy()
                 pending[app_id]["categories"] = []
+
+                total_found += 1
 
             if category not in pending[app_id]["categories"]:
                 pending[app_id]["categories"].append(category)
@@ -204,7 +207,12 @@ def main():
                     "discount": game["discount"],
                     "original": game["original"],
                     "final": game["final"],
+                    "image": game["image"],
                 })
+
+        print(
+            f"{category}: {category_found} qualifying games found"
+        )
 
         time.sleep(2)
 
