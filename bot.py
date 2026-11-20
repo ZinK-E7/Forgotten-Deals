@@ -79,7 +79,10 @@ def steam_search(tag_id):
 
         request = urllib.request.Request(
             url,
-            headers={"User-Agent": "ForgottenDeals/1.0"}
+            headers={
+                "User-Agent": "Mozilla/5.0 ForgottenDeals/1.0",
+                "Accept": "application/json"
+            }
         )
 
         try:
@@ -93,7 +96,16 @@ def steam_search(tag_id):
 
         results = data.get("results_html", "")
 
+        print(
+            "Steam response:",
+            "success =", data.get("success"),
+            "| total_count =", data.get("total_count"),
+            "| keys =", list(data.keys())
+        )
+
         if not results:
+            print("WARNING: Steam returned no results_html!")
+            print("Response preview:", str(data)[:600])
             break
 
         cards = re.findall(
@@ -101,6 +113,8 @@ def steam_search(tag_id):
             results,
             re.S
         )
+
+        print(f"Steam page {page + 1}: {len(cards)} listings")
 
         for card in cards:
             app_id = get_attribute(card, "data-ds-appid")
@@ -139,8 +153,6 @@ def steam_search(tag_id):
                 "url": f"https://store.steampowered.com/app/{app_id}/",
             })
 
-        print(f"Steam page {page + 1}: {len(cards)} listings")
-
         if len(cards) < 100:
             break
 
@@ -161,9 +173,7 @@ def main():
 
         games = steam_search(tag_id)
 
-        print(
-            f"{category}: {len(games)} qualifying games found"
-        )
+        print(f"{category}: {len(games)} qualifying games found")
 
         for game in games:
             app_id = game["id"]
