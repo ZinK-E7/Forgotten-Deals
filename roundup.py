@@ -21,6 +21,11 @@ HEADERS = {
     "Accept": "application/json"
 }
 
+DISCORD_HEADERS = {
+    "Content-Type": "application/json",
+    "User-Agent": "DiscordBot (https://github.com/ZinK-E7/Forgotten-Deals, 1.0)"
+}
+
 
 def load_json(filename, default):
     try:
@@ -122,17 +127,20 @@ def post_roundup(games, first_batch):
     request = urllib.request.Request(
         WEBHOOK,
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Content-Type": "application/json"},
+        headers=DISCORD_HEADERS,
         method="POST"
     )
 
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
             response.read()
+            print("Discord accepted the message:", response.status)
 
     except urllib.error.HTTPError as error:
         print("DISCORD ERROR:", error.code)
-        print("DISCORD MESSAGE:", error.read().decode("utf-8"))
+        print("RESPONSE TYPE:", error.headers.get("Content-Type"))
+        print("CLOUDFLARE RAY:", error.headers.get("CF-RAY"))
+        print("DISCORD MESSAGE:", error.read().decode("utf-8")[:1000])
         raise
 
 
