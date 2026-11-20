@@ -87,9 +87,12 @@ def steam_search(tag_id):
 
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
+                print("Steam URL:", response.geturl())
+
                 data = json.loads(
                     response.read().decode("utf-8")
                 )
+
         except Exception as error:
             print("Steam search error:", error)
             break
@@ -105,7 +108,13 @@ def steam_search(tag_id):
 
         if not results:
             print("WARNING: Steam returned no results_html!")
-            print("Response preview:", str(data)[:600])
+            print("First two Steam items:")
+            print(
+                json.dumps(
+                    data.get("items", [])[:2],
+                    indent=2
+                )
+            )
             break
 
         cards = re.findall(
