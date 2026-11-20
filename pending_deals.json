@@ -25,44 +25,6 @@
       "Survival"
     ]
   },
-  "1693980": {
-    "id": "1693980",
-    "name": "Dead Space",
-    "discount": 90,
-    "original": "\u00a349.99",
-    "final": "\u00a34.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg?t=1777396576",
-    "url": "https://store.steampowered.com/app/1693980/",
-    "categories": [
-      "Horror",
-      "Survival"
-    ]
-  },
-  "1850570": {
-    "id": "1850570",
-    "name": "DEATH STRANDING DIRECTOR'S CUT",
-    "discount": 75,
-    "original": "\u00a334.99",
-    "final": "\u00a38.74",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
-    "url": "https://store.steampowered.com/app/1850570/",
-    "categories": [
-      "Horror"
-    ]
-  },
-  "476600": {
-    "id": "476600",
-    "name": "Call of Duty\u00ae: WWII",
-    "discount": 75,
-    "original": "\u00a344.99",
-    "final": "\u00a311.24",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1780963893",
-    "url": "https://store.steampowered.com/app/476600/",
-    "categories": [
-      "Horror",
-      "FPS"
-    ]
-  },
   "2172010": {
     "id": "2172010",
     "name": "Until Dawn\u2122",
@@ -127,20 +89,6 @@
       "FPS"
     ]
   },
-  "412020": {
-    "id": "412020",
-    "name": "Metro Exodus",
-    "discount": 90,
-    "original": "\u00a326.49",
-    "final": "\u00a32.64",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
-    "url": "https://store.steampowered.com/app/412020/",
-    "categories": [
-      "Horror",
-      "Survival",
-      "FPS"
-    ]
-  },
   "42700": {
     "id": "42700",
     "name": "Call of Duty\u00ae: Black Ops",
@@ -154,57 +102,6 @@
       "FPS"
     ]
   },
-  "934700": {
-    "id": "934700",
-    "name": "Dead Island 2",
-    "discount": 90,
-    "original": "\u00a357.99",
-    "final": "\u00a35.79",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg?t=1790170542",
-    "url": "https://store.steampowered.com/app/934700/",
-    "categories": [
-      "Horror",
-      "FPS"
-    ]
-  },
-  "976730": {
-    "id": "976730",
-    "name": "Halo: The Master Chief Collection",
-    "discount": 75,
-    "original": "\u00a339.99",
-    "final": "\u00a39.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1791569963",
-    "url": "https://store.steampowered.com/app/976730/",
-    "categories": [
-      "Horror"
-    ]
-  },
-  "47780": {
-    "id": "47780",
-    "name": "Dead Space\u2122 2",
-    "discount": 80,
-    "original": "\u00a317.99",
-    "final": "\u00a33.59",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47780/header.jpg?t=1782255426",
-    "url": "https://store.steampowered.com/app/47780/",
-    "categories": [
-      "Horror",
-      "Survival"
-    ]
-  },
-  "1238060": {
-    "id": "1238060",
-    "name": "Dead Space\u2122 3",
-    "discount": 80,
-    "original": "\u00a317.99",
-    "final": "\u00a33.59",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/header.jpg?t=1794430344",
-    "url": "https://store.steampowered.com/app/1238060/",
-    "categories": [
-      "Horror",
-      "Survival"
-    ]
-  },
   "413420": {
     "id": "413420",
     "name": "Danganronpa 2: Goodbye Despair",
@@ -213,30 +110,6 @@
     "final": "\u00a35.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/header.jpg?t=1781085654",
     "url": "https://store.steampowered.com/app/413420/",
-    "categories": [
-      "Horror"
-    ]
-  },
-  "19680": {
-    "id": "19680",
-    "name": "Alice: Madness Returns",
-    "discount": 80,
-    "original": "\u00a38.99",
-    "final": "\u00a31.79",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19680/header.jpg?t=1655743771",
-    "url": "https://store.steampowered.com/app/19680/",
-    "categories": [
-      "Horror"
-    ]
-  },
-  "567640": {
-    "id": "567640",
-    "name": "Danganronpa V3: Killing Harmony",
-    "discount": 80,
-    "original": "\u00a330.99",
-    "final": "\u00a36.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/header.jpg?t=1750134757",
-    "url": "https://store.steampowered.com/app/567640/",
     "categories": [
       "Horror"
     ]
@@ -302,19 +175,6 @@
       "Survival"
     ]
   },
-  "552520": {
-    "id": "552520",
-    "name": "Far Cry\u00ae 5",
-    "discount": 85,
-    "original": "\u00a349.99",
-    "final": "\u00a37.49",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/0dbbd22689fafc2b5b86996257a8e115ff935e81/header.jpg?t=1792530774",
-    "url": "https://store.steampowered.com/app/552520/",
-    "categories": [
-      "Survival",
-      "FPS"
-    ]
-  },
   "42680": {
     "id": "42680",
     "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011)",
@@ -326,31 +186,6 @@
     "categories": [
       "Survival",
       "FPS"
-    ]
-  },
-  "460930": {
-    "id": "460930",
-    "name": "Tom Clancy's Ghost Recon\u00ae Wildlands",
-    "discount": 80,
-    "original": "\u00a344.99",
-    "final": "\u00a38.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/36ca0e082902bb8b6f4f0f3ae20de41b1a3c54c6/header.jpg?t=1790268185",
-    "url": "https://store.steampowered.com/app/460930/",
-    "categories": [
-      "Survival",
-      "FPS"
-    ]
-  },
-  "394510": {
-    "id": "394510",
-    "name": "HELLDIVERS\u2122 Dive Harder Edition",
-    "discount": 80,
-    "original": "\u00a315.99",
-    "final": "\u00a33.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/header.jpg?t=1750950223",
-    "url": "https://store.steampowered.com/app/394510/",
-    "categories": [
-      "Survival"
     ]
   },
   "3065800": {
@@ -415,18 +250,6 @@
       "FPS"
     ]
   },
-  "1237970": {
-    "id": "1237970",
-    "name": "Titanfall\u00ae 2",
-    "discount": 85,
-    "original": "\u00a324.99",
-    "final": "\u00a33.74",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1779987598",
-    "url": "https://store.steampowered.com/app/1237970/",
-    "categories": [
-      "FPS"
-    ]
-  },
   "1985810": {
     "id": "1985810",
     "name": "Call of Duty\u00ae: Black Ops Cold War",
@@ -435,30 +258,6 @@
     "final": "\u00a312.49",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
     "url": "https://store.steampowered.com/app/1985810/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "1237950": {
-    "id": "1237950",
-    "name": "STAR WARS\u2122 Battlefront\u2122 II",
-    "discount": 80,
-    "original": "\u00a334.99",
-    "final": "\u00a36.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg?t=1777393714",
-    "url": "https://store.steampowered.com/app/1237950/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "1238840": {
-    "id": "1238840",
-    "name": "Battlefield\u2122 1",
-    "discount": 95,
-    "original": "\u00a334.99",
-    "final": "\u00a31.74",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg?t=1777324289",
-    "url": "https://store.steampowered.com/app/1238840/",
     "categories": [
       "FPS"
     ]
@@ -483,18 +282,6 @@
     "final": "\u00a39.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/header.jpg?t=1755558170",
     "url": "https://store.steampowered.com/app/292730/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "1238810": {
-    "id": "1238810",
-    "name": "Battlefield\u2122 V",
-    "discount": 95,
-    "original": "\u00a344.99",
-    "final": "\u00a32.24",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1772707365",
-    "url": "https://store.steampowered.com/app/1238810/",
     "categories": [
       "FPS"
     ]
@@ -619,30 +406,6 @@
       "Indie"
     ]
   },
-  "379430": {
-    "id": "379430",
-    "name": "Kingdom Come: Deliverance",
-    "discount": 85,
-    "original": "\u00a326.49",
-    "final": "\u00a33.97",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/43b72106345687f4a2bf94d5f98335e52c1cd598/header.jpg?t=1770998376",
-    "url": "https://store.steampowered.com/app/379430/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "1222700": {
-    "id": "1222700",
-    "name": "A Way Out",
-    "discount": 80,
-    "original": "\u00a324.99",
-    "final": "\u00a34.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg?t=1777323433",
-    "url": "https://store.steampowered.com/app/1222700/",
-    "categories": [
-      "Indie"
-    ]
-  },
   "1569580": {
     "id": "1569580",
     "name": "Blue Prince",
@@ -675,18 +438,6 @@
     "final": "\u00a37.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
     "url": "https://store.steampowered.com/app/2138710/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "1225570": {
-    "id": "1225570",
-    "name": "Unravel Two",
-    "discount": 85,
-    "original": "\u00a317.99",
-    "final": "\u00a32.69",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg?t=1777389655",
-    "url": "https://store.steampowered.com/app/1225570/",
     "categories": [
       "Indie"
     ]
