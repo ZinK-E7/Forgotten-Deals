@@ -1,5 +1,5 @@
 
-name: Forgotten Deals Bot
+name: Forgotten Deals Hunter
 
 on:
   schedule:
@@ -29,63 +29,20 @@ jobs:
           python-version: "3.12"
 
       - name: Hunt Steam bargains
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python bot.py
 
-      - name: Save posted deals safely
+      - name: Save deal history
         run: |
           git config user.name "Forgotten Deals Bot"
           git config user.email "bot@users.noreply.github.com"
 
-          for attempt in 1 2 3; do
-            echo "Saving deal history: attempt $attempt"
+          git add pending_deals.json posted_deals.json
 
-            git fetch origin main
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+            exit 0
+          fi
 
-            python - <<'PY'
-          import json
-          import subprocess
-
-          try:
-              with open("posted_deals.json", "r") as f:
-                  local = json.load(f)
-          except (FileNotFoundError, json.JSONDecodeError):
-              local = []
-
-          try:
-              remote_data = subprocess.check_output(
-                  ["git", "show", "origin/main:posted_deals.json"],
-                  text=True
-              )
-              remote = json.loads(remote_data)
-          except (subprocess.CalledProcessError, json.JSONDecodeError):
-              remote = []
-
-          merged = sorted(set(local) | set(remote))
-
-          with open("/tmp/posted_deals.json", "w") as f:
-              json.dump(merged, f, indent=2)
-          PY
-
-            git reset --hard origin/main
-            cp /tmp/posted_deals.json posted_deals.json
-            git add posted_deals.json
-
-            if git diff --cached --quiet; then
-              echo "No new deal history to save."
-              exit 0
-            fi
-
-            git commit -m "Update posted deals"
-
-            if git push origin HEAD:main; then
-              echo "Deal history saved successfully."
-              exit 0
-            fi
-
-            echo "Push rejected. Retrying..."
-          done
-
-          echo "Could not save deal history after 3 attempts."
-          exit 1
+          git commit -m "Update collected deals"
+          git pull --rebase origin main
+          git push origin main
