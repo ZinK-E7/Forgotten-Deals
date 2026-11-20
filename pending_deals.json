@@ -1,1 +1,694 @@
-{}
+{
+  "1888930": {
+    "id": "1888930",
+    "name": "The Last of Us\u2122 Part I",
+    "discount": 50,
+    "original": "\u00a349.99",
+    "final": "\u00a324.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1750959031",
+    "url": "https://store.steampowered.com/app/1888930/",
+    "categories": [
+      "Horror",
+      "Survival"
+    ]
+  },
+  "1259420": {
+    "id": "1259420",
+    "name": "Days Gone",
+    "discount": 67,
+    "original": "\u00a334.99",
+    "final": "\u00a311.54",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1750947718",
+    "url": "https://store.steampowered.com/app/1259420/",
+    "categories": [
+      "Horror",
+      "Survival"
+    ]
+  },
+  "1693980": {
+    "id": "1693980",
+    "name": "Dead Space",
+    "discount": 90,
+    "original": "\u00a349.99",
+    "final": "\u00a34.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg?t=1777396576",
+    "url": "https://store.steampowered.com/app/1693980/",
+    "categories": [
+      "Horror",
+      "Survival"
+    ]
+  },
+  "1850570": {
+    "id": "1850570",
+    "name": "DEATH STRANDING DIRECTOR'S CUT",
+    "discount": 75,
+    "original": "\u00a334.99",
+    "final": "\u00a38.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1793287496",
+    "url": "https://store.steampowered.com/app/1850570/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "476600": {
+    "id": "476600",
+    "name": "Call of Duty\u00ae: WWII",
+    "discount": 75,
+    "original": "\u00a344.99",
+    "final": "\u00a311.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1780963893",
+    "url": "https://store.steampowered.com/app/476600/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "2172010": {
+    "id": "2172010",
+    "name": "Until Dawn\u2122",
+    "discount": 50,
+    "original": "\u00a359.99",
+    "final": "\u00a329.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2172010/header.jpg?t=1750959555",
+    "url": "https://store.steampowered.com/app/2172010/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "202970": {
+    "id": "202970",
+    "name": "Call of Duty\u00ae: Black Ops II",
+    "discount": 50,
+    "original": "\u00a334.99",
+    "final": "\u00a317.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/header.jpg?t=1780962925",
+    "url": "https://store.steampowered.com/app/202970/",
+    "categories": [
+      "Horror",
+      "Survival",
+      "FPS"
+    ]
+  },
+  "1649240": {
+    "id": "1649240",
+    "name": "Returnal\u2122",
+    "discount": 67,
+    "original": "\u00a349.99",
+    "final": "\u00a316.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1649240/header.jpg?t=1750956860",
+    "url": "https://store.steampowered.com/app/1649240/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "2605790": {
+    "id": "2605790",
+    "name": "Deep Rock Galactic: Rogue Core",
+    "discount": 50,
+    "original": "\u00a324.99",
+    "final": "\u00a312.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1794902204",
+    "url": "https://store.steampowered.com/app/2605790/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "1144200": {
+    "id": "1144200",
+    "name": "Ready or Not",
+    "discount": 50,
+    "original": "\u00a344.99",
+    "final": "\u00a322.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1790846188",
+    "url": "https://store.steampowered.com/app/1144200/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "412020": {
+    "id": "412020",
+    "name": "Metro Exodus",
+    "discount": 90,
+    "original": "\u00a326.49",
+    "final": "\u00a32.64",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+    "url": "https://store.steampowered.com/app/412020/",
+    "categories": [
+      "Horror",
+      "Survival",
+      "FPS"
+    ]
+  },
+  "42700": {
+    "id": "42700",
+    "name": "Call of Duty\u00ae: Black Ops",
+    "discount": 50,
+    "original": "\u00a334.99",
+    "final": "\u00a317.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg?t=1780962720",
+    "url": "https://store.steampowered.com/app/42700/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "934700": {
+    "id": "934700",
+    "name": "Dead Island 2",
+    "discount": 90,
+    "original": "\u00a357.99",
+    "final": "\u00a35.79",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/934700/header.jpg?t=1790170542",
+    "url": "https://store.steampowered.com/app/934700/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "976730": {
+    "id": "976730",
+    "name": "Halo: The Master Chief Collection",
+    "discount": 75,
+    "original": "\u00a339.99",
+    "final": "\u00a39.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/976730/header.jpg?t=1791569963",
+    "url": "https://store.steampowered.com/app/976730/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "47780": {
+    "id": "47780",
+    "name": "Dead Space\u2122 2",
+    "discount": 80,
+    "original": "\u00a317.99",
+    "final": "\u00a33.59",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/47780/header.jpg?t=1782255426",
+    "url": "https://store.steampowered.com/app/47780/",
+    "categories": [
+      "Horror",
+      "Survival"
+    ]
+  },
+  "1238060": {
+    "id": "1238060",
+    "name": "Dead Space\u2122 3",
+    "discount": 80,
+    "original": "\u00a317.99",
+    "final": "\u00a33.59",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238060/header.jpg?t=1794430344",
+    "url": "https://store.steampowered.com/app/1238060/",
+    "categories": [
+      "Horror",
+      "Survival"
+    ]
+  },
+  "413420": {
+    "id": "413420",
+    "name": "Danganronpa 2: Goodbye Despair",
+    "discount": 60,
+    "original": "\u00a314.99",
+    "final": "\u00a35.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/header.jpg?t=1781085654",
+    "url": "https://store.steampowered.com/app/413420/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "19680": {
+    "id": "19680",
+    "name": "Alice: Madness Returns",
+    "discount": 80,
+    "original": "\u00a38.99",
+    "final": "\u00a31.79",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/19680/header.jpg?t=1655743771",
+    "url": "https://store.steampowered.com/app/19680/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "567640": {
+    "id": "567640",
+    "name": "Danganronpa V3: Killing Harmony",
+    "discount": 80,
+    "original": "\u00a330.99",
+    "final": "\u00a36.19",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/header.jpg?t=1750134757",
+    "url": "https://store.steampowered.com/app/567640/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "594650": {
+    "id": "594650",
+    "name": "Hunt: Showdown 1896",
+    "discount": 65,
+    "original": "\u00a334.99",
+    "final": "\u00a312.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/8cf55bcd74fc14c93f3a9cc7d0a442afabab6f88/header_alt_assets_29.jpg?t=1791385253",
+    "url": "https://store.steampowered.com/app/594650/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "1808500": {
+    "id": "1808500",
+    "name": "ARC Raiders",
+    "discount": 50,
+    "original": "\u00a334.99",
+    "final": "\u00a317.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/41ee6c5c81a5797132879892586465b917acc563/header_alt_assets_9.jpg?t=1794215815",
+    "url": "https://store.steampowered.com/app/1808500/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "457140": {
+    "id": "457140",
+    "name": "Oxygen Not Included",
+    "discount": 70,
+    "original": "\u00a318.99",
+    "final": "\u00a35.69",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg?t=1795119151",
+    "url": "https://store.steampowered.com/app/457140/",
+    "categories": [
+      "Survival",
+      "Indie"
+    ]
+  },
+  "2292800": {
+    "id": "2292800",
+    "name": "Blacksmith Master",
+    "discount": 50,
+    "original": "\u00a317.99",
+    "final": "\u00a38.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
+    "url": "https://store.steampowered.com/app/2292800/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "244850": {
+    "id": "244850",
+    "name": "Space Engineers",
+    "discount": 50,
+    "original": "\u00a314.99",
+    "final": "\u00a37.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/315370aa8bd35ad8dcf37987df5eccf2a4a975e2/header.jpg?t=1794852618",
+    "url": "https://store.steampowered.com/app/244850/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "552520": {
+    "id": "552520",
+    "name": "Far Cry\u00ae 5",
+    "discount": 85,
+    "original": "\u00a349.99",
+    "final": "\u00a37.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/0dbbd22689fafc2b5b86996257a8e115ff935e81/header.jpg?t=1792530774",
+    "url": "https://store.steampowered.com/app/552520/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "42680": {
+    "id": "42680",
+    "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011)",
+    "discount": 50,
+    "original": "\u00a329.99",
+    "final": "\u00a314.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/header.jpg?t=1788479870",
+    "url": "https://store.steampowered.com/app/42680/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "460930": {
+    "id": "460930",
+    "name": "Tom Clancy's Ghost Recon\u00ae Wildlands",
+    "discount": 80,
+    "original": "\u00a344.99",
+    "final": "\u00a38.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/36ca0e082902bb8b6f4f0f3ae20de41b1a3c54c6/header.jpg?t=1790268185",
+    "url": "https://store.steampowered.com/app/460930/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "394510": {
+    "id": "394510",
+    "name": "HELLDIVERS\u2122 Dive Harder Edition",
+    "discount": 80,
+    "original": "\u00a315.99",
+    "final": "\u00a33.19",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394510/header.jpg?t=1750950223",
+    "url": "https://store.steampowered.com/app/394510/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "3065800": {
+    "id": "3065800",
+    "name": "Marathon",
+    "discount": 55,
+    "original": "\u00a349.99",
+    "final": "\u00a322.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/c3093fec19fed6eb0750a87261c53743a5757827/header.jpg?t=1786061300",
+    "url": "https://store.steampowered.com/app/3065800/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "3739580": {
+    "id": "3739580",
+    "name": "KORRIDOR",
+    "discount": 40,
+    "original": "\u00a36.49",
+    "final": "\u00a33.89",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3739580/6d6fea5275ce8f5455c72b50aa44581147329ec5/header.jpg?t=1795097898",
+    "url": "https://store.steampowered.com/app/3739580/",
+    "categories": [
+      "Survival",
+      "Indie"
+    ]
+  },
+  "962130": {
+    "id": "962130",
+    "name": "Grounded",
+    "discount": 60,
+    "original": "\u00a334.99",
+    "final": "\u00a313.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1768264530",
+    "url": "https://store.steampowered.com/app/962130/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "311210": {
+    "id": "311210",
+    "name": "Call of Duty\u00ae: Black Ops III",
+    "discount": 75,
+    "original": "\u00a344.99",
+    "final": "\u00a311.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg?t=1780963650",
+    "url": "https://store.steampowered.com/app/311210/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "2840770": {
+    "id": "2840770",
+    "name": "Avatar: Frontiers of Pandora\u2122",
+    "discount": 50,
+    "original": "\u00a324.99",
+    "final": "\u00a312.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/27aa6d8f9c3f11dc93a557164d30a9ba08a7c46a/header.jpg?t=1778598692",
+    "url": "https://store.steampowered.com/app/2840770/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1237970": {
+    "id": "1237970",
+    "name": "Titanfall\u00ae 2",
+    "discount": 85,
+    "original": "\u00a324.99",
+    "final": "\u00a33.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1779987598",
+    "url": "https://store.steampowered.com/app/1237970/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1985810": {
+    "id": "1985810",
+    "name": "Call of Duty\u00ae: Black Ops Cold War",
+    "discount": 75,
+    "original": "\u00a349.99",
+    "final": "\u00a312.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
+    "url": "https://store.steampowered.com/app/1985810/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1237950": {
+    "id": "1237950",
+    "name": "STAR WARS\u2122 Battlefront\u2122 II",
+    "discount": 80,
+    "original": "\u00a334.99",
+    "final": "\u00a36.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237950/header.jpg?t=1777393714",
+    "url": "https://store.steampowered.com/app/1237950/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1238840": {
+    "id": "1238840",
+    "name": "Battlefield\u2122 1",
+    "discount": 95,
+    "original": "\u00a334.99",
+    "final": "\u00a31.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg?t=1777324289",
+    "url": "https://store.steampowered.com/app/1238840/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1285190": {
+    "id": "1285190",
+    "name": "Borderlands 4",
+    "discount": 50,
+    "original": "\u00a389.99",
+    "final": "\u00a344.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/986a88d1b0e1420b00183def2a7034508353afa3/header.jpg?t=1795122343",
+    "url": "https://store.steampowered.com/app/1285190/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "292730": {
+    "id": "292730",
+    "name": "Call of Duty\u00ae: Infinite Warfare",
+    "discount": 75,
+    "original": "\u00a339.99",
+    "final": "\u00a39.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/header.jpg?t=1755558170",
+    "url": "https://store.steampowered.com/app/292730/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1238810": {
+    "id": "1238810",
+    "name": "Battlefield\u2122 V",
+    "discount": 95,
+    "original": "\u00a344.99",
+    "final": "\u00a32.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1772707365",
+    "url": "https://store.steampowered.com/app/1238810/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "4384550": {
+    "id": "4384550",
+    "name": "Call of Duty\u00ae: Black Ops 6",
+    "discount": 60,
+    "original": "\u00a369.99",
+    "final": "\u00a327.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/836828b783fc1208664d6c3f9fe88e9abf060813/header.jpg?t=1783699904",
+    "url": "https://store.steampowered.com/app/4384550/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "2369390": {
+    "id": "2369390",
+    "name": "Far Cry\u00ae 6",
+    "discount": 75,
+    "original": "\u00a349.99",
+    "final": "\u00a312.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/64af0c6b70ef233bbdff1e5ffe0e397481efb3c9/header.jpg?t=1793372616",
+    "url": "https://store.steampowered.com/app/2369390/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "209160": {
+    "id": "209160",
+    "name": "Call of Duty\u00ae: Ghosts",
+    "discount": 60,
+    "original": "\u00a334.99",
+    "final": "\u00a313.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/header.jpg?t=1780963043",
+    "url": "https://store.steampowered.com/app/209160/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "393080": {
+    "id": "393080",
+    "name": "Call of Duty\u00ae: Modern Warfare\u00ae Remastered (2017)",
+    "discount": 60,
+    "original": "\u00a334.99",
+    "final": "\u00a313.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg?t=1780963789",
+    "url": "https://store.steampowered.com/app/393080/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1172620": {
+    "id": "1172620",
+    "name": "Sea of Thieves: 2026 Edition",
+    "discount": 65,
+    "original": "\u00a339.99",
+    "final": "\u00a313.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg?t=1793617680",
+    "url": "https://store.steampowered.com/app/1172620/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "227300": {
+    "id": "227300",
+    "name": "Euro Truck Simulator 2",
+    "discount": 75,
+    "original": "\u00a316.99",
+    "final": "\u00a34.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
+    "url": "https://store.steampowered.com/app/227300/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "244210": {
+    "id": "244210",
+    "name": "Assetto Corsa",
+    "discount": 75,
+    "original": "\u00a315.49",
+    "final": "\u00a33.87",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1793288663",
+    "url": "https://store.steampowered.com/app/244210/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "5037200": {
+    "id": "5037200",
+    "name": "just volleyball",
+    "discount": 38,
+    "original": "\u00a36.49",
+    "final": "\u00a34.02",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
+    "url": "https://store.steampowered.com/app/5037200/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "220200": {
+    "id": "220200",
+    "name": "Kerbal Space Program",
+    "discount": 75,
+    "original": "\u00a332.99",
+    "final": "\u00a38.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg?t=1738037585",
+    "url": "https://store.steampowered.com/app/220200/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "2784470": {
+    "id": "2784470",
+    "name": "9 Kings",
+    "discount": 50,
+    "original": "\u00a317.99",
+    "final": "\u00a38.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1795189473",
+    "url": "https://store.steampowered.com/app/2784470/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "379430": {
+    "id": "379430",
+    "name": "Kingdom Come: Deliverance",
+    "discount": 85,
+    "original": "\u00a326.49",
+    "final": "\u00a33.97",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379430/43b72106345687f4a2bf94d5f98335e52c1cd598/header.jpg?t=1770998376",
+    "url": "https://store.steampowered.com/app/379430/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1222700": {
+    "id": "1222700",
+    "name": "A Way Out",
+    "discount": 80,
+    "original": "\u00a324.99",
+    "final": "\u00a34.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg?t=1777323433",
+    "url": "https://store.steampowered.com/app/1222700/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1569580": {
+    "id": "1569580",
+    "name": "Blue Prince",
+    "discount": 46,
+    "original": "\u00a324.99",
+    "final": "\u00a313.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1794319403",
+    "url": "https://store.steampowered.com/app/1569580/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "2670630": {
+    "id": "2670630",
+    "name": "Supermarket Simulator",
+    "discount": 40,
+    "original": "\u00a316.75",
+    "final": "\u00a310.05",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/267eef055b0e5d45cb1c874f816a31dded4bb88e/header.jpg?t=1787758631",
+    "url": "https://store.steampowered.com/app/2670630/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "2138710": {
+    "id": "2138710",
+    "name": "Sifu",
+    "discount": 75,
+    "original": "\u00a331.99",
+    "final": "\u00a37.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138710/header.jpg?t=1782742326",
+    "url": "https://store.steampowered.com/app/2138710/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1225570": {
+    "id": "1225570",
+    "name": "Unravel Two",
+    "discount": 85,
+    "original": "\u00a317.99",
+    "final": "\u00a32.69",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg?t=1777389655",
+    "url": "https://store.steampowered.com/app/1225570/",
+    "categories": [
+      "Indie"
+    ]
+  }
+}
