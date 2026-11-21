@@ -223,7 +223,8 @@
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/962130/header.jpg?t=1768264530",
     "url": "https://store.steampowered.com/app/962130/",
     "categories": [
-      "Survival"
+      "Survival",
+      "Horror"
     ]
   },
   "311210": {
@@ -452,6 +453,90 @@
     "url": "https://store.steampowered.com/app/298110/",
     "categories": [
       "Survival"
+    ]
+  },
+  "2523720": {
+    "id": "2523720",
+    "name": "Gears of War: Reloaded",
+    "discount": 75,
+    "original": "\u00a339.99",
+    "final": "\u00a39.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2523720/2ba5d8203b18c38fb2d10b14e92a285a850f08ab/header.jpg?t=1757024702",
+    "url": "https://store.steampowered.com/app/2523720/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "1097840": {
+    "id": "1097840",
+    "name": "Gears 5",
+    "discount": 75,
+    "original": "\u00a329.99",
+    "final": "\u00a37.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/header.jpg?t=1780003997",
+    "url": "https://store.steampowered.com/app/1097840/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "115320": {
+    "id": "115320",
+    "name": "Prototype 2",
+    "discount": 70,
+    "original": "\u00a319.99",
+    "final": "\u00a35.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/115320/header.jpg?t=1655761001",
+    "url": "https://store.steampowered.com/app/115320/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "2806050": {
+    "id": "2806050",
+    "name": "Halo: Campaign Evolved",
+    "discount": 40,
+    "original": "\u00a349.99",
+    "final": "\u00a329.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg?t=1786379031",
+    "url": "https://store.steampowered.com/app/2806050/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "2231380": {
+    "id": "2231380",
+    "name": "Tom Clancy's Ghost Recon\u00ae Breakpoint",
+    "discount": 80,
+    "original": "\u00a349.99",
+    "final": "\u00a39.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/3e05f31b9aa9fd29b9709f035e73761a908e9fbe/header.jpg?t=1790683796",
+    "url": "https://store.steampowered.com/app/2231380/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "837470": {
+    "id": "837470",
+    "name": "Untitled Goose Game",
+    "discount": 60,
+    "original": "\u00a315.99",
+    "final": "\u00a36.39",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/header.jpg?t=1699052664",
+    "url": "https://store.steampowered.com/app/837470/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1057090": {
+    "id": "1057090",
+    "name": "Ori and the Will of the Wisps",
+    "discount": 75,
+    "original": "\u00a324.99",
+    "final": "\u00a36.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg?t=1759530749",
+    "url": "https://store.steampowered.com/app/1057090/",
+    "categories": [
+      "Indie"
     ]
   }
 }
