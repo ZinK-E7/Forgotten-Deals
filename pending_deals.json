@@ -587,5 +587,65 @@
     "categories": [
       "Indie"
     ]
+  },
+  "945360": {
+    "id": "945360",
+    "name": "Among Us",
+    "discount": 40,
+    "original": "\u00a33.99",
+    "final": "\u00a32.39",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/d611f3f87743b5121532023b1d3ee2dd0e96e772/header.jpg?t=1793821899",
+    "url": "https://store.steampowered.com/app/945360/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1469610": {
+    "id": "1469610",
+    "name": "Last Train Home",
+    "discount": 67,
+    "original": "\u00a334.99",
+    "final": "\u00a311.54",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
+    "url": "https://store.steampowered.com/app/1469610/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1824220": {
+    "id": "1824220",
+    "name": "Chivalry 2",
+    "discount": 80,
+    "original": "\u00a335.99",
+    "final": "\u00a37.19",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg?t=1744201613",
+    "url": "https://store.steampowered.com/app/1824220/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "4094660": {
+    "id": "4094660",
+    "name": "Rivage",
+    "discount": 35,
+    "original": "\u00a320.99",
+    "final": "\u00a313.64",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4094660/25ca531e261b1217387bbf4a039623002f233287/header.jpg?t=1794490853",
+    "url": "https://store.steampowered.com/app/4094660/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1432850": {
+    "id": "1432850",
+    "name": "Farewell North",
+    "discount": 65,
+    "original": "\u00a319.99",
+    "final": "\u00a36.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1432850/header.jpg?t=1790748143",
+    "url": "https://store.steampowered.com/app/1432850/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
