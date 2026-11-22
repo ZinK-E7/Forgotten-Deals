@@ -782,5 +782,29 @@
     "categories": [
       "FPS"
     ]
+  },
+  "285900": {
+    "id": "285900",
+    "name": "Gang Beasts",
+    "discount": 60,
+    "original": "\u00a315.99",
+    "final": "\u00a36.39",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/285900/header.jpg?t=1780410654",
+    "url": "https://store.steampowered.com/app/285900/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1740300": {
+    "id": "1740300",
+    "name": "Smushi Come Home",
+    "discount": 60,
+    "original": "\u00a316.99",
+    "final": "\u00a36.79",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1740300/header.jpg?t=1788375443",
+    "url": "https://store.steampowered.com/app/1740300/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
