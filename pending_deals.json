@@ -647,5 +647,91 @@
     "categories": [
       "Indie"
     ]
+  },
+  "753640": {
+    "id": "753640",
+    "name": "Outer Wilds",
+    "discount": 50,
+    "original": "\u00a319.99",
+    "final": "\u00a39.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/079ae4a7ff4b5875adc5c63c4c0b84e5a3e6966b/header.jpg?t=1785424341",
+    "url": "https://store.steampowered.com/app/753640/",
+    "categories": [
+      "Horror",
+      "Indie"
+    ]
+  },
+  "1332010": {
+    "id": "1332010",
+    "name": "Stray",
+    "discount": 50,
+    "original": "\u00a323.99",
+    "final": "\u00a311.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1332010/71daca1910d664d31240b9623a495e0c0828807f/header.jpg?t=1785424330",
+    "url": "https://store.steampowered.com/app/1332010/",
+    "categories": [
+      "Horror",
+      "Indie"
+    ]
+  },
+  "2764460": {
+    "id": "2764460",
+    "name": "Sandustry",
+    "discount": 50,
+    "original": "\u00a317.99",
+    "final": "\u00a38.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2764460/985a3a20945ec9c8e3e898e16cdaffe99d00e884/header.jpg?t=1795189795",
+    "url": "https://store.steampowered.com/app/2764460/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1336490": {
+    "id": "1336490",
+    "name": "Against the Storm",
+    "discount": 80,
+    "original": "\u00a324.99",
+    "final": "\u00a34.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336490/4df5edc84dea5dae1269f3f95c2bd2cf22333af6/header.jpg?t=1795189563",
+    "url": "https://store.steampowered.com/app/1336490/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "2933130": {
+    "id": "2933130",
+    "name": "The Lord of the Rings: Return to Moria\u2122",
+    "discount": 65,
+    "original": "\u00a324.99",
+    "final": "\u00a38.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2933130/6b8f8cf6304969c5c1d72fb3b33e5a31a1255f83/header.jpg?t=1790022388",
+    "url": "https://store.steampowered.com/app/2933130/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1121640": {
+    "id": "1121640",
+    "name": "The Wandering Village",
+    "discount": 50,
+    "original": "\u00a324.99",
+    "final": "\u00a312.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1121640/1fb7e9ed41e98c6b289f9abdd9686cc7f38b1b3e/header.jpg?t=1792413930",
+    "url": "https://store.steampowered.com/app/1121640/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "641990": {
+    "id": "641990",
+    "name": "The Escapists 2",
+    "discount": 90,
+    "original": "\u00a319.99",
+    "final": "\u00a31.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/header.jpg?t=1791478007",
+    "url": "https://store.steampowered.com/app/641990/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
