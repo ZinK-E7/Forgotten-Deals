@@ -868,5 +868,129 @@
     "categories": [
       "Horror"
     ]
+  },
+  "1151340": {
+    "id": "1151340",
+    "name": "Fallout 76",
+    "discount": 67,
+    "original": "\u00a352.99",
+    "final": "\u00a317.48",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151340/f85dc32bab9fe57807cf588150579a8b2ab409f4/header.jpg?t=1791379859",
+    "url": "https://store.steampowered.com/app/1151340/",
+    "categories": [
+      "Horror",
+      "Survival",
+      "FPS"
+    ]
+  },
+  "1222140": {
+    "id": "1222140",
+    "name": "Detroit: Become Human",
+    "discount": 90,
+    "original": "\u00a333.99",
+    "final": "\u00a33.39",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+    "url": "https://store.steampowered.com/app/1222140/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "784150": {
+    "id": "784150",
+    "name": "Workers & Resources: Soviet Republic",
+    "discount": 75,
+    "original": "\u00a334.99",
+    "final": "\u00a38.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/header.jpg?t=1795190320",
+    "url": "https://store.steampowered.com/app/784150/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "632360": {
+    "id": "632360",
+    "name": "Risk of Rain 2",
+    "discount": 67,
+    "original": "\u00a319.99",
+    "final": "\u00a36.59",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg?t=1791475448",
+    "url": "https://store.steampowered.com/app/632360/",
+    "categories": [
+      "Survival",
+      "Indie"
+    ]
+  },
+  "440900": {
+    "id": "440900",
+    "name": "Conan Exiles Enhanced",
+    "discount": 50,
+    "original": "\u00a333.99",
+    "final": "\u00a316.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440900/bae6def963ca0dbf5ee4b7768f3fcc0e99458380/header_alt_assets_10.jpg?t=1794495825",
+    "url": "https://store.steampowered.com/app/440900/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "377160": {
+    "id": "377160",
+    "name": "Fallout 4",
+    "discount": 75,
+    "original": "\u00a315.99",
+    "final": "\u00a33.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1786648137",
+    "url": "https://store.steampowered.com/app/377160/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "1363080": {
+    "id": "1363080",
+    "name": "Manor Lords",
+    "discount": 35,
+    "original": "\u00a334.99",
+    "final": "\u00a322.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1363080/header.jpg?t=1795190328",
+    "url": "https://store.steampowered.com/app/1363080/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1174180": {
+    "id": "1174180",
+    "name": "Red Dead Redemption 2",
+    "discount": 75,
+    "original": "\u00a359.99",
+    "final": "\u00a314.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+    "url": "https://store.steampowered.com/app/1174180/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "784080": {
+    "id": "784080",
+    "name": "MechWarrior 5: Mercenaries",
+    "discount": 75,
+    "original": "\u00a324.99",
+    "final": "\u00a36.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784080/33d11250c669e8c755c12678d1ef401e70e1c4a5/header.jpg?t=1791309626",
+    "url": "https://store.steampowered.com/app/784080/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "4656000": {
+    "id": "4656000",
+    "name": "BOMBANANA!",
+    "discount": 40,
+    "original": "\u00a37.15",
+    "final": "\u00a34.29",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656000/99c086faba625a8d3bc459bab444087d257ccbe1/header.jpg?t=1794217137",
+    "url": "https://store.steampowered.com/app/4656000/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
