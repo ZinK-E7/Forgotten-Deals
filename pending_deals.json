@@ -992,5 +992,138 @@
     "categories": [
       "Indie"
     ]
+  },
+  "208650": {
+    "id": "208650",
+    "name": "Batman\u2122: Arkham Knight",
+    "discount": 80,
+    "original": "\u00a315.99",
+    "final": "\u00a33.19",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg?t=1794605442",
+    "url": "https://store.steampowered.com/app/208650/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "782330": {
+    "id": "782330",
+    "name": "DOOM Eternal",
+    "discount": 67,
+    "original": "\u00a326.99",
+    "final": "\u00a38.90",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/feaf8293bcd2d078422faa547bc0d707c08f606e/header.jpg?t=1783432602",
+    "url": "https://store.steampowered.com/app/782330/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "532790": {
+    "id": "532790",
+    "name": "Vampire: The Masquerade\u00ae - Bloodlines\u2122 2",
+    "discount": 50,
+    "original": "\u00a349.99",
+    "final": "\u00a324.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/532790/6d111b2adddf94a3689dab8d7642de40b051db42/header.jpg?t=1789993933",
+    "url": "https://store.steampowered.com/app/532790/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "699130": {
+    "id": "699130",
+    "name": "World War Z",
+    "discount": 75,
+    "original": "\u00a325.99",
+    "final": "\u00a36.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg?t=1794590968",
+    "url": "https://store.steampowered.com/app/699130/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "22380": {
+    "id": "22380",
+    "name": "Fallout: New Vegas",
+    "discount": 75,
+    "original": "\u00a38.99",
+    "final": "\u00a32.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/22380/header.jpg?t=1765992876",
+    "url": "https://store.steampowered.com/app/22380/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1324130": {
+    "id": "1324130",
+    "name": "Stranded: Alien Dawn",
+    "discount": 65,
+    "original": "\u00a329.99",
+    "final": "\u00a310.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1324130/header.jpg?t=1759746262",
+    "url": "https://store.steampowered.com/app/1324130/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "3017860": {
+    "id": "3017860",
+    "name": "DOOM: The Dark Ages",
+    "discount": 50,
+    "original": "\u00a344.99",
+    "final": "\u00a322.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3017860/header.jpg?t=1793834110",
+    "url": "https://store.steampowered.com/app/3017860/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "2677660": {
+    "id": "2677660",
+    "name": "Indiana Jones and the Great Circle",
+    "discount": 40,
+    "original": "\u00a359.99",
+    "final": "\u00a335.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2677660/151ae5a881f05ef630defef85d99b38146b7055c/header.jpg?t=1778168392",
+    "url": "https://store.steampowered.com/app/2677660/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1796220": {
+    "id": "1796220",
+    "name": "Laika: Aged Through Blood",
+    "discount": 85,
+    "original": "\u00a316.99",
+    "final": "\u00a32.54",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/header.jpg?t=1790618048",
+    "url": "https://store.steampowered.com/app/1796220/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "373420": {
+    "id": "373420",
+    "name": "Divinity: Original Sin - Enhanced Edition",
+    "discount": 90,
+    "original": "\u00a329.99",
+    "final": "\u00a32.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373420/header.jpg?t=1765505119",
+    "url": "https://store.steampowered.com/app/373420/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "431240": {
+    "id": "431240",
+    "name": "Golf With Your Friends",
+    "discount": 90,
+    "original": "\u00a349.99",
+    "final": "\u00a34.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431240/header.jpg?t=1789740480",
+    "url": "https://store.steampowered.com/app/431240/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
