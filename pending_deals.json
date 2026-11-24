@@ -1039,7 +1039,8 @@
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg?t=1794590968",
     "url": "https://store.steampowered.com/app/699130/",
     "categories": [
-      "Horror"
+      "Horror",
+      "FPS"
     ]
   },
   "22380": {
@@ -1137,6 +1138,54 @@
     "url": "https://store.steampowered.com/app/1971870/",
     "categories": [
       "Horror"
+    ]
+  },
+  "960990": {
+    "id": "960990",
+    "name": "Beyond: Two Souls",
+    "discount": 90,
+    "original": "\u00a316.99",
+    "final": "\u00a31.69",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
+    "url": "https://store.steampowered.com/app/960990/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "371660": {
+    "id": "371660",
+    "name": "Far Cry\u00ae Primal",
+    "discount": 75,
+    "original": "\u00a324.99",
+    "final": "\u00a36.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/371660/header.jpg?t=1772640435",
+    "url": "https://store.steampowered.com/app/371660/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "233860": {
+    "id": "233860",
+    "name": "Kenshi",
+    "discount": 60,
+    "original": "\u00a322.99",
+    "final": "\u00a39.19",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233860/fa72ac8a032fd876780cd5b554e4c03b4976ef74/header.jpg?t=1779293333",
+    "url": "https://store.steampowered.com/app/233860/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "504230": {
+    "id": "504230",
+    "name": "Celeste",
+    "discount": 75,
+    "original": "\u00a315.99",
+    "final": "\u00a33.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+    "url": "https://store.steampowered.com/app/504230/",
+    "categories": [
+      "Indie"
     ]
   }
 }
