@@ -1187,5 +1187,53 @@
     "categories": [
       "Indie"
     ]
+  },
+  "2958130": {
+    "id": "2958130",
+    "name": "Jurassic World Evolution 3",
+    "discount": 40,
+    "original": "\u00a364.99",
+    "final": "\u00a338.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2958130/df39f8c59232633e8e01ab63313b095402bdd0d5/header.jpg?t=1790687062",
+    "url": "https://store.steampowered.com/app/2958130/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1488200": {
+    "id": "1488200",
+    "name": "Symphony of War: The Nephilim Saga",
+    "discount": 65,
+    "original": "\u00a315.49",
+    "final": "\u00a35.42",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1488200/59ac2b8fecd926262a0599e1f1d5bd497055b1a9/header_alt_assets_7.jpg?t=1795529438",
+    "url": "https://store.steampowered.com/app/1488200/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "1562430": {
+    "id": "1562430",
+    "name": "DREDGE",
+    "discount": 60,
+    "original": "\u00a323.99",
+    "final": "\u00a39.59",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1562430/header.jpg?t=1793158823",
+    "url": "https://store.steampowered.com/app/1562430/",
+    "categories": [
+      "Indie"
+    ]
+  },
+  "233450": {
+    "id": "233450",
+    "name": "Prison Architect",
+    "discount": 75,
+    "original": "\u00a324.99",
+    "final": "\u00a36.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233450/header.jpg?t=1759221867",
+    "url": "https://store.steampowered.com/app/233450/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
