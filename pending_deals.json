@@ -1296,5 +1296,29 @@
     "categories": [
       "Indie"
     ]
+  },
+  "2947440": {
+    "id": "2947440",
+    "name": "SILENT HILL f",
+    "discount": 72,
+    "original": "\u00a354.98",
+    "final": "\u00a315.39",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/7e5d923ac622bd1775ebc9b5d4b5b0a24bf5ed40/header.jpg?t=1770169624",
+    "url": "https://store.steampowered.com/app/2947440/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "690830": {
+    "id": "690830",
+    "name": "Foundation",
+    "discount": 40,
+    "original": "\u00a329.50",
+    "final": "\u00a317.70",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1795024869",
+    "url": "https://store.steampowered.com/app/690830/",
+    "categories": [
+      "Survival"
+    ]
   }
 }
