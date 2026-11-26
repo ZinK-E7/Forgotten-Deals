@@ -1392,7 +1392,95 @@
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686810/7655099ca004b09198b83713ad0d8215b98f7d5f/header_alt_assets_6.jpg?t=1790181050",
     "url": "https://store.steampowered.com/app/686810/",
     "categories": [
+      "Indie",
+      "FPS"
+    ]
+  },
+  "1361210": {
+    "id": "1361210",
+    "name": "Warhammer 40,000: Darktide",
+    "discount": 75,
+    "original": "\u00a332.99",
+    "final": "\u00a38.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1361210/92ac039f738f764d5e4b73d313129433f2016411/header_alt_assets_21.jpg?t=1795527711",
+    "url": "https://store.steampowered.com/app/1361210/",
+    "categories": [
+      "Horror",
+      "FPS"
+    ]
+  },
+  "2399420": {
+    "id": "2399420",
+    "name": "Le Mans Ultimate",
+    "discount": 45,
+    "original": "\u00a332.99",
+    "final": "\u00a318.14",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399420/f510badbf573eecdf529ae735a49331f4b9919be/header.jpg?t=1795599588",
+    "url": "https://store.steampowered.com/app/2399420/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "1172710": {
+    "id": "1172710",
+    "name": "Dune: Awakening",
+    "discount": 50,
+    "original": "\u00a341.99",
+    "final": "\u00a320.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172710/da994ea756677c3d1d9a77accb8596a8661f4cad/header.jpg?t=1795717323",
+    "url": "https://store.steampowered.com/app/1172710/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "1782120": {
+    "id": "1782120",
+    "name": "ZERO Sievert",
+    "discount": 50,
+    "original": "\u00a316.99",
+    "final": "\u00a38.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782120/header.jpg?t=1788990111",
+    "url": "https://store.steampowered.com/app/1782120/",
+    "categories": [
+      "Survival",
       "Indie"
+    ]
+  },
+  "801800": {
+    "id": "801800",
+    "name": "Atomfall",
+    "discount": 70,
+    "original": "\u00a344.99",
+    "final": "\u00a313.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/801800/header.jpg?t=1776701587",
+    "url": "https://store.steampowered.com/app/801800/",
+    "categories": [
+      "Survival",
+      "FPS"
+    ]
+  },
+  "960090": {
+    "id": "960090",
+    "name": "Bloons TD 6",
+    "discount": 80,
+    "original": "\u00a311.79",
+    "final": "\u00a32.35",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1782123772",
+    "url": "https://store.steampowered.com/app/960090/",
+    "categories": [
+      "Survival"
+    ]
+  },
+  "218620": {
+    "id": "218620",
+    "name": "PAYDAY 2",
+    "discount": 50,
+    "original": "\u00a37.99",
+    "final": "\u00a33.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/c44949287e8ffa2518f01b5033b8431dd0f984e4/header.jpg?t=1795005310",
+    "url": "https://store.steampowered.com/app/218620/",
+    "categories": [
+      "FPS"
     ]
   }
 }
