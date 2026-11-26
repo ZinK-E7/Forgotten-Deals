@@ -1318,7 +1318,57 @@
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690830/4152bb28bd28777a1671fc267f2ce40a05c7e511/header_alt_assets_7.jpg?t=1795024869",
     "url": "https://store.steampowered.com/app/690830/",
     "categories": [
+      "Survival",
+      "Indie"
+    ]
+  },
+  "2124490": {
+    "id": "2124490",
+    "name": "SILENT HILL 2",
+    "discount": 72,
+    "original": "\u00a359.99",
+    "final": "\u00a316.79",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124490/header.jpg?t=1744248682",
+    "url": "https://store.steampowered.com/app/2124490/",
+    "categories": [
+      "Horror"
+    ]
+  },
+  "2417610": {
+    "id": "2417610",
+    "name": "METAL GEAR SOLID \u0394: SNAKE EATER",
+    "discount": 40,
+    "original": "\u00a344.98",
+    "final": "\u00a326.98",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2417610/05c97cbcd0cfc27c8ed6c7fc6d81e0995aa2a7d4/header.jpg?t=1762249119",
+    "url": "https://store.steampowered.com/app/2417610/",
+    "categories": [
       "Survival"
+    ]
+  },
+  "4000": {
+    "id": "4000",
+    "name": "Garry's Mod",
+    "discount": 50,
+    "original": "\u00a36.99",
+    "final": "\u00a33.49",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
+    "url": "https://store.steampowered.com/app/4000/",
+    "categories": [
+      "FPS",
+      "Indie"
+    ]
+  },
+  "895870": {
+    "id": "895870",
+    "name": "Project Wingman",
+    "discount": 50,
+    "original": "\u00a319.49",
+    "final": "\u00a39.74",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/895870/header.jpg?t=1773695705",
+    "url": "https://store.steampowered.com/app/895870/",
+    "categories": [
+      "Indie"
     ]
   }
 }
