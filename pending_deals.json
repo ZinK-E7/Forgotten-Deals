@@ -1482,5 +1482,54 @@
     "categories": [
       "FPS"
     ]
+  },
+  "1113120": {
+    "id": "1113120",
+    "name": "IXION",
+    "discount": 72,
+    "original": "\u00a329.50",
+    "final": "\u00a38.26",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1113120/header.jpg?t=1733140180",
+    "url": "https://store.steampowered.com/app/1113120/",
+    "categories": [
+      "Survival",
+      "Indie"
+    ]
+  },
+  "1091500": {
+    "id": "1091500",
+    "name": "Cyberpunk 2077",
+    "discount": 70,
+    "original": "\u00a349.99",
+    "final": "\u00a314.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1794474878",
+    "url": "https://store.steampowered.com/app/1091500/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "954740": {
+    "id": "954740",
+    "name": "Terminator: Resistance",
+    "discount": 80,
+    "original": "\u00a334.99",
+    "final": "\u00a36.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/header.jpg?t=1701952741",
+    "url": "https://store.steampowered.com/app/954740/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1239080": {
+    "id": "1239080",
+    "name": "Door Kickers 2: Task Force North",
+    "discount": 40,
+    "original": "\u00a320.99",
+    "final": "\u00a312.59",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1239080/9a6301deb0dd6483c4c43667c6f989b7cc062bd9/header.jpg?t=1788117500",
+    "url": "https://store.steampowered.com/app/1239080/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
