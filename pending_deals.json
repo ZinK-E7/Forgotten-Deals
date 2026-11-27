@@ -63,19 +63,6 @@
       "Horror"
     ]
   },
-  "2605790": {
-    "id": "2605790",
-    "name": "Deep Rock Galactic: Rogue Core",
-    "discount": 50,
-    "original": "\u00a324.99",
-    "final": "\u00a312.49",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2605790/8a84d291390183d33a9629e68cdd35ad27d6217b/header_alt_assets_2.jpg?t=1794902204",
-    "url": "https://store.steampowered.com/app/2605790/",
-    "categories": [
-      "Horror",
-      "FPS"
-    ]
-  },
   "1144200": {
     "id": "1144200",
     "name": "Ready or Not",
@@ -100,18 +87,6 @@
     "categories": [
       "Horror",
       "FPS"
-    ]
-  },
-  "413420": {
-    "id": "413420",
-    "name": "Danganronpa 2: Goodbye Despair",
-    "discount": 60,
-    "original": "\u00a314.99",
-    "final": "\u00a35.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/header.jpg?t=1781085654",
-    "url": "https://store.steampowered.com/app/413420/",
-    "categories": [
-      "Horror"
     ]
   },
   "594650": {
@@ -139,19 +114,6 @@
       "Survival"
     ]
   },
-  "457140": {
-    "id": "457140",
-    "name": "Oxygen Not Included",
-    "discount": 70,
-    "original": "\u00a318.99",
-    "final": "\u00a35.69",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg?t=1795119151",
-    "url": "https://store.steampowered.com/app/457140/",
-    "categories": [
-      "Survival",
-      "Indie"
-    ]
-  },
   "2292800": {
     "id": "2292800",
     "name": "Blacksmith Master",
@@ -160,18 +122,6 @@
     "final": "\u00a38.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2292800/a4e8efa3d8a738c3011f6b50dd57475a7ba2c782/header.jpg?t=1795111301",
     "url": "https://store.steampowered.com/app/2292800/",
-    "categories": [
-      "Survival"
-    ]
-  },
-  "244850": {
-    "id": "244850",
-    "name": "Space Engineers",
-    "discount": 50,
-    "original": "\u00a314.99",
-    "final": "\u00a37.49",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244850/315370aa8bd35ad8dcf37987df5eccf2a4a975e2/header.jpg?t=1794852618",
-    "url": "https://store.steampowered.com/app/244850/",
     "categories": [
       "Survival"
     ]
@@ -228,18 +178,6 @@
       "Horror"
     ]
   },
-  "311210": {
-    "id": "311210",
-    "name": "Call of Duty\u00ae: Black Ops III",
-    "discount": 75,
-    "original": "\u00a344.99",
-    "final": "\u00a311.24",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg?t=1780963650",
-    "url": "https://store.steampowered.com/app/311210/",
-    "categories": [
-      "FPS"
-    ]
-  },
   "2840770": {
     "id": "2840770",
     "name": "Avatar: Frontiers of Pandora\u2122",
@@ -248,18 +186,6 @@
     "final": "\u00a312.49",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2840770/27aa6d8f9c3f11dc93a557164d30a9ba08a7c46a/header.jpg?t=1778598692",
     "url": "https://store.steampowered.com/app/2840770/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "1985810": {
-    "id": "1985810",
-    "name": "Call of Duty\u00ae: Black Ops Cold War",
-    "discount": 75,
-    "original": "\u00a349.99",
-    "final": "\u00a312.49",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
-    "url": "https://store.steampowered.com/app/1985810/",
     "categories": [
       "FPS"
     ]
@@ -276,18 +202,6 @@
       "FPS"
     ]
   },
-  "292730": {
-    "id": "292730",
-    "name": "Call of Duty\u00ae: Infinite Warfare",
-    "discount": 75,
-    "original": "\u00a339.99",
-    "final": "\u00a39.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292730/header.jpg?t=1755558170",
-    "url": "https://store.steampowered.com/app/292730/",
-    "categories": [
-      "FPS"
-    ]
-  },
   "4384550": {
     "id": "4384550",
     "name": "Call of Duty\u00ae: Black Ops 6",
@@ -296,18 +210,6 @@
     "final": "\u00a327.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/836828b783fc1208664d6c3f9fe88e9abf060813/header.jpg?t=1783699904",
     "url": "https://store.steampowered.com/app/4384550/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "2369390": {
-    "id": "2369390",
-    "name": "Far Cry\u00ae 6",
-    "discount": 75,
-    "original": "\u00a349.99",
-    "final": "\u00a312.49",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/64af0c6b70ef233bbdff1e5ffe0e397481efb3c9/header.jpg?t=1793372616",
-    "url": "https://store.steampowered.com/app/2369390/",
     "categories": [
       "FPS"
     ]
@@ -348,18 +250,6 @@
       "FPS"
     ]
   },
-  "227300": {
-    "id": "227300",
-    "name": "Euro Truck Simulator 2",
-    "discount": 75,
-    "original": "\u00a316.99",
-    "final": "\u00a34.24",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1794502925",
-    "url": "https://store.steampowered.com/app/227300/",
-    "categories": [
-      "Indie"
-    ]
-  },
   "244210": {
     "id": "244210",
     "name": "Assetto Corsa",
@@ -368,18 +258,6 @@
     "final": "\u00a33.87",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1793288663",
     "url": "https://store.steampowered.com/app/244210/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "5037200": {
-    "id": "5037200",
-    "name": "just volleyball",
-    "discount": 38,
-    "original": "\u00a36.49",
-    "final": "\u00a34.02",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
-    "url": "https://store.steampowered.com/app/5037200/",
     "categories": [
       "Indie"
     ]
@@ -396,18 +274,6 @@
       "Indie"
     ]
   },
-  "2784470": {
-    "id": "2784470",
-    "name": "9 Kings",
-    "discount": 50,
-    "original": "\u00a317.99",
-    "final": "\u00a38.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/640a138fbc6918daa276a4653360eca9e4488b65/header.jpg?t=1795189473",
-    "url": "https://store.steampowered.com/app/2784470/",
-    "categories": [
-      "Indie"
-    ]
-  },
   "1569580": {
     "id": "1569580",
     "name": "Blue Prince",
@@ -416,18 +282,6 @@
     "final": "\u00a313.49",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1794319403",
     "url": "https://store.steampowered.com/app/1569580/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "2670630": {
-    "id": "2670630",
-    "name": "Supermarket Simulator",
-    "discount": 40,
-    "original": "\u00a316.75",
-    "final": "\u00a310.05",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2670630/267eef055b0e5d45cb1c874f816a31dded4bb88e/header.jpg?t=1787758631",
-    "url": "https://store.steampowered.com/app/2670630/",
     "categories": [
       "Indie"
     ]
@@ -442,18 +296,6 @@
     "url": "https://store.steampowered.com/app/2138710/",
     "categories": [
       "Indie"
-    ]
-  },
-  "298110": {
-    "id": "298110",
-    "name": "Far Cry\u00ae 4",
-    "discount": 80,
-    "original": "\u00a325.99",
-    "final": "\u00a35.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/298110/731cff7e53820cb83436f93bfa86e493f6a0af45/header.jpg?t=1793367666",
-    "url": "https://store.steampowered.com/app/298110/",
-    "categories": [
-      "Survival"
     ]
   },
   "2523720": {
@@ -500,18 +342,6 @@
     "final": "\u00a329.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2806050/30d8542d35d7919b34e5f5dbe955d04c3f99e6da/header.jpg?t=1786379031",
     "url": "https://store.steampowered.com/app/2806050/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "2231380": {
-    "id": "2231380",
-    "name": "Tom Clancy's Ghost Recon\u00ae Breakpoint",
-    "discount": 80,
-    "original": "\u00a349.99",
-    "final": "\u00a39.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2231380/3e05f31b9aa9fd29b9709f035e73761a908e9fbe/header.jpg?t=1790683796",
-    "url": "https://store.steampowered.com/app/2231380/",
     "categories": [
       "FPS"
     ]
@@ -600,30 +430,6 @@
       "Survival"
     ]
   },
-  "1469610": {
-    "id": "1469610",
-    "name": "Last Train Home",
-    "discount": 67,
-    "original": "\u00a334.99",
-    "final": "\u00a311.54",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1469610/header.jpg?t=1745406550",
-    "url": "https://store.steampowered.com/app/1469610/",
-    "categories": [
-      "Survival"
-    ]
-  },
-  "1824220": {
-    "id": "1824220",
-    "name": "Chivalry 2",
-    "discount": 80,
-    "original": "\u00a335.99",
-    "final": "\u00a37.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1824220/header.jpg?t=1744201613",
-    "url": "https://store.steampowered.com/app/1824220/",
-    "categories": [
-      "FPS"
-    ]
-  },
   "4094660": {
     "id": "4094660",
     "name": "Rivage",
@@ -687,18 +493,6 @@
       "Indie"
     ]
   },
-  "1336490": {
-    "id": "1336490",
-    "name": "Against the Storm",
-    "discount": 80,
-    "original": "\u00a324.99",
-    "final": "\u00a34.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336490/4df5edc84dea5dae1269f3f95c2bd2cf22333af6/header.jpg?t=1795189563",
-    "url": "https://store.steampowered.com/app/1336490/",
-    "categories": [
-      "Survival"
-    ]
-  },
   "2933130": {
     "id": "2933130",
     "name": "The Lord of the Rings: Return to Moria\u2122",
@@ -721,18 +515,6 @@
     "url": "https://store.steampowered.com/app/1121640/",
     "categories": [
       "Survival"
-    ]
-  },
-  "641990": {
-    "id": "641990",
-    "name": "The Escapists 2",
-    "discount": 90,
-    "original": "\u00a319.99",
-    "final": "\u00a31.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/641990/header.jpg?t=1791478007",
-    "url": "https://store.steampowered.com/app/641990/",
-    "categories": [
-      "Indie"
     ]
   },
   "501300": {
@@ -807,19 +589,6 @@
       "Indie"
     ]
   },
-  "262060": {
-    "id": "262060",
-    "name": "Darkest Dungeon\u00ae",
-    "discount": 85,
-    "original": "\u00a319.49",
-    "final": "\u00a32.92",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/58cc9af814f8767242167a3f8ad013c1ac471074/header.jpg?t=1789168187",
-    "url": "https://store.steampowered.com/app/262060/",
-    "categories": [
-      "Horror",
-      "Indie"
-    ]
-  },
   "1715130": {
     "id": "1715130",
     "name": "Crysis Remastered",
@@ -881,18 +650,6 @@
       "Horror",
       "Survival",
       "FPS"
-    ]
-  },
-  "1222140": {
-    "id": "1222140",
-    "name": "Detroit: Become Human",
-    "discount": 90,
-    "original": "\u00a333.99",
-    "final": "\u00a33.39",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
-    "url": "https://store.steampowered.com/app/1222140/",
-    "categories": [
-      "Horror"
     ]
   },
   "784150": {
@@ -993,18 +750,6 @@
       "Indie"
     ]
   },
-  "208650": {
-    "id": "208650",
-    "name": "Batman\u2122: Arkham Knight",
-    "discount": 80,
-    "original": "\u00a315.99",
-    "final": "\u00a33.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg?t=1794605442",
-    "url": "https://store.steampowered.com/app/208650/",
-    "categories": [
-      "Horror"
-    ]
-  },
   "782330": {
     "id": "782330",
     "name": "DOOM Eternal",
@@ -1092,66 +837,6 @@
       "FPS"
     ]
   },
-  "1796220": {
-    "id": "1796220",
-    "name": "Laika: Aged Through Blood",
-    "discount": 85,
-    "original": "\u00a316.99",
-    "final": "\u00a32.54",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1796220/header.jpg?t=1790618048",
-    "url": "https://store.steampowered.com/app/1796220/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "373420": {
-    "id": "373420",
-    "name": "Divinity: Original Sin - Enhanced Edition",
-    "discount": 90,
-    "original": "\u00a329.99",
-    "final": "\u00a32.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373420/header.jpg?t=1765505119",
-    "url": "https://store.steampowered.com/app/373420/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "431240": {
-    "id": "431240",
-    "name": "Golf With Your Friends",
-    "discount": 90,
-    "original": "\u00a349.99",
-    "final": "\u00a34.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431240/header.jpg?t=1789740480",
-    "url": "https://store.steampowered.com/app/431240/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "1971870": {
-    "id": "1971870",
-    "name": "Mortal Kombat 1",
-    "discount": 85,
-    "original": "\u00a344.99",
-    "final": "\u00a36.74",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/header.jpg?t=1778795130",
-    "url": "https://store.steampowered.com/app/1971870/",
-    "categories": [
-      "Horror"
-    ]
-  },
-  "960990": {
-    "id": "960990",
-    "name": "Beyond: Two Souls",
-    "discount": 90,
-    "original": "\u00a316.99",
-    "final": "\u00a31.69",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960990/header.jpg?t=1667468566",
-    "url": "https://store.steampowered.com/app/960990/",
-    "categories": [
-      "Horror"
-    ]
-  },
   "371660": {
     "id": "371660",
     "name": "Far Cry\u00ae Primal",
@@ -1236,19 +921,6 @@
       "Indie"
     ]
   },
-  "668580": {
-    "id": "668580",
-    "name": "Atomic Heart",
-    "discount": 80,
-    "original": "\u00a354.99",
-    "final": "\u00a310.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
-    "url": "https://store.steampowered.com/app/668580/",
-    "categories": [
-      "Horror",
-      "FPS"
-    ]
-  },
   "1145360": {
     "id": "1145360",
     "name": "Hades",
@@ -1257,18 +929,6 @@
     "final": "\u00a35.24",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg?t=1758127023",
     "url": "https://store.steampowered.com/app/1145360/",
-    "categories": [
-      "Indie"
-    ]
-  },
-  "527430": {
-    "id": "527430",
-    "name": "Warhammer 40,000: Inquisitor - Martyr",
-    "discount": 90,
-    "original": "\u00a341.99",
-    "final": "\u00a34.19",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527430/header.jpg?t=1731442765",
-    "url": "https://store.steampowered.com/app/527430/",
     "categories": [
       "Indie"
     ]
@@ -1459,18 +1119,6 @@
       "FPS"
     ]
   },
-  "960090": {
-    "id": "960090",
-    "name": "Bloons TD 6",
-    "discount": 80,
-    "original": "\u00a311.79",
-    "final": "\u00a32.35",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960090/header.jpg?t=1782123772",
-    "url": "https://store.steampowered.com/app/960090/",
-    "categories": [
-      "Survival"
-    ]
-  },
   "218620": {
     "id": "218620",
     "name": "PAYDAY 2",
@@ -1504,18 +1152,6 @@
     "final": "\u00a314.99",
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1794474878",
     "url": "https://store.steampowered.com/app/1091500/",
-    "categories": [
-      "FPS"
-    ]
-  },
-  "954740": {
-    "id": "954740",
-    "name": "Terminator: Resistance",
-    "discount": 80,
-    "original": "\u00a334.99",
-    "final": "\u00a36.99",
-    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/954740/header.jpg?t=1701952741",
-    "url": "https://store.steampowered.com/app/954740/",
     "categories": [
       "FPS"
     ]
