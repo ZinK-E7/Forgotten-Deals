@@ -1216,5 +1216,29 @@
     "categories": [
       "Indie"
     ]
+  },
+  "107410": {
+    "id": "107410",
+    "name": "Arma 3",
+    "discount": 75,
+    "original": "\u00a324.99",
+    "final": "\u00a36.24",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/header.jpg?t=1786458620",
+    "url": "https://store.steampowered.com/app/107410/",
+    "categories": [
+      "FPS"
+    ]
+  },
+  "1931770": {
+    "id": "1931770",
+    "name": "Chants of Sennaar",
+    "discount": 50,
+    "original": "\u00a317.99",
+    "final": "\u00a38.99",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1931770/header.jpg?t=1774006124",
+    "url": "https://store.steampowered.com/app/1931770/",
+    "categories": [
+      "Indie"
+    ]
   }
 }
